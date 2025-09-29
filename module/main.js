@@ -1,4 +1,5 @@
-import { sayHi } from './sayHi.js';
+import User from './user.js';
 
-sayHi('John');
-// => Hello, John
+const user = new User('Alice');
+
+console.log(user.name);  // => Alice
